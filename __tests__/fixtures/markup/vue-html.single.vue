@@ -1,18 +1,18 @@
 <template>
-  <div class='<%= blockName %>'></div>
+  <div class='BlockName'></div>
 </template>
 
 <script>
   export default {
-    name: '<%= blockName %>',
+    name: 'BlockName',
     data () {
       return {}
     }
   }
 </script>
 
-<style lang='<%= style %>'>
-  .<%= blockName %> {
+<style lang='css'>
+  .BlockName {
     display: block
   }
 </style>

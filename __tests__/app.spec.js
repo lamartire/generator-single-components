@@ -164,9 +164,18 @@ describe('generator-single-components:vue-html', () => {
   });
 
   it('creates files', () => {
+    const expectedMarkup = fs.readFileSync(
+      path.resolve(__dirname, `./fixtures/markup/vue-html.single.vue`),
+      'utf-8'
+    );
+
     assert.file([
       `${blocksNames[0]}.vue`
     ]);
+    assert.fileContent(
+      `${blocksNames[0]}.vue`,
+      expectedMarkup
+    );
   });
 });
 
@@ -183,9 +192,18 @@ describe('generator-single-components:vue-pug', () => {
   });
 
   it('creates files', () => {
+    const expectedMarkup = fs.readFileSync(
+      path.resolve(__dirname, `./fixtures/markup/vue-pug.single.vue`),
+      'utf-8'
+    );
+
     assert.file([
       `${blocksNames[0]}.vue`
     ]);
+    assert.fileContent(
+      `${blocksNames[0]}.vue`,
+      expectedMarkup
+    );
   });
 });
 
