@@ -63,6 +63,7 @@ module.exports = class extends Generator {
     const markupExtension = markup.match(/\.\S+$/gm)[0];
     const stylesExtension = style.match(/\.\S+$/gm)[0];
 
+    /* eslint-disable */
     blocksNames.split(' ').map(blockName => {
       try {
         fs.readdirSync(blocksPath);
@@ -114,9 +115,6 @@ module.exports = class extends Generator {
         });
       }
     });
+    /* eslint-enable */
   }
-
-  // install() {
-  //   this.installDependencies();
-  // }
 };
