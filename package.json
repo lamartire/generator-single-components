@@ -13,7 +13,16 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "generator components blocks bem bem-blocks react react-components vue vue-components css-modules",
+    "generator",
+    "components",
+    "blocks",
+    "bem",
+    "bem-blocks",
+    "react",
+    "react-components",
+    "vue",
+    "vue-components",
+    "css-modules",
     "yeoman-generator"
   ],
   "devDependencies": {
@@ -49,6 +58,5 @@
       "node": true
     }
   },
-  "repository": "lamartire/generator-single-components",
-  "private": true
+  "repository": "lamartire/generator-single-components"
 }
