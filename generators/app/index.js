@@ -74,8 +74,12 @@ module.exports = class extends Generator {
       }
 
       if (type && type === 'single') {
+        const singleFileExtension = markup.slice(
+          0, markup.indexOf(markupExtension)
+        ) + '.single' + markupExtension
+
         this.fs.copyTpl(
-          this.templatePath(`markup/${markup}`),
+          this.templatePath(`markup/${singleFileExtension}`),
           this.destinationPath(`${blocksPath}/${blockName}${markupExtension}`),
           {
             blockName,
