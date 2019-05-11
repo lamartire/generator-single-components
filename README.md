@@ -1,4 +1,7 @@
 # generator-single-components [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/lamartire/generator-single-components.svg)](https://greenkeeper.io/)
+
 >
 
 ## Installation
