@@ -1,6 +1,6 @@
 {
   "name": "generator-single-components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": ":zap: Easiest way to create different single components in one time",
   "homepage": "",
   "author": {
@@ -32,7 +32,6 @@
     "jest": "^19.0.2",
     "jest-cli": "^20.0.0",
     "lodash": "^4.17.4",
-    "nsp": "^2.6.3",
     "shortid": "^2.2.8",
     "yeoman-assert": "^3.0.0",
     "yeoman-test": "^1.6.0"
@@ -47,7 +46,6 @@
     "testRegex": "\\.spec.\\S+$"
   },
   "scripts": {
-    "prepare": "nsp check",
     "pretest": "eslint . --fix",
     "test": "jest"
   },

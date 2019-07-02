@@ -1,6 +1,11 @@
 # generator-single-components [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url]
 >
 
+## ⚠️ This project deprecated
+
+This project was deprecated since `0.0.4` version. Fork it if you need additional features,
+or use [hygen](http://github.com/jondot/hygen) for blazing fast components scaffolding.
+
 ## Installation
 
 ```bash
